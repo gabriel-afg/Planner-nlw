@@ -48,4 +48,8 @@ public class Trip {
         this.ownerEmail = data.owner_email();
         this.isConfirmed = false;
     }
+
+    public void setConfirmed(boolean b) {
+        this.isConfirmed = b;
+    }
 }
